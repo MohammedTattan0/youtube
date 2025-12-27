@@ -11,7 +11,7 @@ button {
 
 a {
   text-decoration: none !important;
-  color: black !important;
+  color: black;
 }
 
 .video-icon {
@@ -78,4 +78,17 @@ time {
   position: absolute;
   bottom: 10px;
   right: 7px;
+}
+
+.list-group-item.active {
+  background-color: #bf40bf;
+  border-color: #bf40bf;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .list-group .list-group-item {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
 }
