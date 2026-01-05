@@ -104,3 +104,10 @@ time {
 .offcanvas {
   width: 280px !important;
 }
+
+.content-title {
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #bf40bf;
+  display: inline-block;
+}
